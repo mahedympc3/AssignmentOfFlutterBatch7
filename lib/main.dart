@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
                   ScaffoldMessenger.of(context).showSnackBar(snackBar);
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green, // Corrected here
+                  backgroundColor: Colors.green,
                 ),
                 child: Text('Press Me'),
               ),
